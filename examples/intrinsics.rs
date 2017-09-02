@@ -18,15 +18,15 @@
 #![cfg_attr(windows, feature(panic_unwind))]
 #![no_std]
 
-#[cfg(not(thumb))]
-extern crate alloc_system;
+//#[cfg(not(thumb))]
+//extern crate alloc_system;
 extern crate compiler_builtins;
 #[cfg(windows)]
 extern crate panic_unwind;
 
-#[cfg(not(thumb))]
-#[global_allocator]
-static A: alloc_system::System = alloc_system::System;
+//#[cfg(not(thumb))]
+//#[global_allocator]
+//static A: alloc_system::System = alloc_system::System;
 
 // NOTE cfg(not(thumbv6m)) means that the operation is not supported on ARMv6-M at all. Not even
 // compiler-rt provides a C/assembly implementation.

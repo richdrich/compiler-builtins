@@ -1,4 +1,6 @@
 # `compiler-builtins`
+NOTE: I forked this to add some tinkering to get Rust to run on the Arduino Zero (arm6m)
+
 
 [![Build status](https://ci.appveyor.com/api/projects/status/eusnjps5ui3d305p?svg=true)](https://ci.appveyor.com/project/rust-lang-libs/compiler-builtins)
 [![Build Status](https://travis-ci.org/rust-lang-nursery/compiler-builtins.svg?branch=master)](https://travis-ci.org/rust-lang-nursery/compiler-builtins)
